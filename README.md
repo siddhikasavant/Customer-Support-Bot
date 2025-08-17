@@ -34,7 +34,7 @@ This is a Dialogflow ES chatbot for online shopping customer support. It can ans
 ```bash
 Customer-Support-Bot/
 │
-├── agent.zip          
+├── CustomerSupportBot.zip        
 ├── README.md          
 └── index.html  
 ```
