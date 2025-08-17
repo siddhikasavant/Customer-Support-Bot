@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support Bot</title>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h2>Customer Support Chatbot</h2>
+    <p>Ask me anything about orders, returns, refunds, or delivery!</p>
+
+    <df-messenger
+        chat-title="CustomerSupportBot"
+        project-id="customersupportbot-wynh"
+        language-code="en">
+    </df-messenger>
+</body>
+</html>
